@@ -1,4 +1,15 @@
-"# eslint-servicenow" 
+## Installation and Usage
+
+Prerequisites: [Node.js](https://nodejs.org/) (`^12.22.0`, `^14.17.0`, or `>=16.0.0`) built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
+
+You can install ESLint using npm:
+
+```
+$ npm install eslint --save-dev
+```
+
+After installing `eslint` you need to createa `.eslintrc` file in your directory.
+In it you need to copy rules configured below:
 
 ```json
 {
