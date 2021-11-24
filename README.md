@@ -5,7 +5,13 @@ Prerequisites: [Node.js](https://nodejs.org/) (`^12.22.0`, `^14.17.0`, or `>=16.
 You can install ESLint using npm:
 
 ```
-$ npm install eslint --save-dev
+$ npm install eslint -g
+```
+
+Then you need to install ServiceNow plugin using npm:
+
+```
+$ npm install eslint-plugin-servicenow --save-dev
 ```
 
 After installing `eslint` you need to createa `.eslintrc` file in your directory.
